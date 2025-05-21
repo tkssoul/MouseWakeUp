@@ -25,7 +25,7 @@ struct Mouse_Don_t_Sleep_App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Tabs()
         }
         .modelContainer(sharedModelContainer)
     }
